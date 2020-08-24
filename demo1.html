@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="./promise/promise+xhr.js"></script>
+    <!-- <script src="./promise/promise+xhr.js"></script> -->
+    <!-- <script src="./promise/simplePromise.js"></script> -->
+    <script src="./demo.js"></script>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div></div>
+    <div></div>
+    <div></div>
+    <script type='text/javascript'>
+
+        // const demo = new Promise((resolve, reject) => {
+        //     setTimeout(() => {
+        //         resolve('111')
+        //     }, 1000);
+
+        //     throw 4
+        // })
+        // console.log(demo)
+        // demo
+        // .then((value) => {
+        //     console.log(value)
+        // })
+        // .then((value) => {
+        //     console.log(value)
+        // }, (error) => {
+        //     console.log(error)
+        // })
+
+        // console.log('222')
+
+        // const p1 = Promise.resolve(3)
+        // const p3 = Promise.resolve(new Promise((resolve)=>{
+        //   setTimeout(() => {
+        //       resolve('5')
+        //   },1000);
+        // }))
+        // const p2 = Promise.resolve(Promise.resolve(4))
+
+        // p1.then((val)=>{
+        //   console.log(val)
+        // })
+        // p2.then((val)=>{
+        //   console.log(val)
+        // })
+        // p3.then((val)=>{
+        //   console.log(val)
+        // })
+    </script>
+    <!-- <script src="./demo.js"></script> -->
 </body>
+
 </html>
